@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import CSPMDashboardWidget from "../components/CspmDashboardWidget";
+import CSPMDashboardWidget from "../components/CSPMDashboardWidgets";
 import CWPPDashboardWidget from "../components/CWPPDashboardWidget";
 import RegistryScanWidget from "../components/RegistryScanWidget";
 import AddWidgetPanel from "../components/AddWidgetPanel";
