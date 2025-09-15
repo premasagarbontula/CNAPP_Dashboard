@@ -2,21 +2,27 @@
 
 A modern, responsive analytics dashboard built with React featuring multiple widget categories, dynamic widget management, and a clean user interface.
 
+## App Demo
+You can view the deployed project here:  
+👉 [CNAPP Dashboard Demo](https://polite-cuchufli-bb92dd.netlify.app/)
+
+---
+
 ## ✨ Dashboard Screenshots
 
-# Home Page
+ **Home Page**
 
 ![Home Page View](./src/assets/Home_page_view.png)
 
-# Dashboard Page
+**Dashboard Page**
 
 ![Dashboard View](./src/assets/Dashboard_view.png)
 
-# Add Widget
+**Add Widget**
 
 ![Add Widget View](./src/assets/Add_widget_view.png)
 
-# Search Filter
+**Search Filter**
 
 ![Search Filter View](./src/assets/Search_filter_view.png)
 
