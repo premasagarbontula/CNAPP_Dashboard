@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "id": "CSPM",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "cloud-accounts",
+          "title": "Cloud Accounts",
+          "type": "donut",
+          "data": [
+            { "name": "Connected", "value": 2 },
+            { "name": "Not Connected", "value": 2 }
+          ],
+          "colors": ["#38bdf8", "#bae6fd"]
+        },
+        {
+          "id": "cloud-risk",
+          "title": "Cloud Account Risk Assessment",
+          "type": "donut",
+          "data": [
+            { "name": "Failed", "value": 1689 },
+            { "name": "Warning", "value": 681 },
+            { "name": "Not available", "value": 360 },
+            { "name": "Passed", "value": 7253 }
+          ],
+          "colors": ["#ef4444", "#fad932", "#c8ccdb", "#19a65b"]
+        }
+      ]
+    },
+    {
+      "id": "CWPP",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "namespace-alerts",
+          "title": "Top 5 Namespace Specific Alerts",
+          "type": "line",
+          "data": []
+        },
+        {
+          "id": "workload-alerts",
+          "title": "Workload Alerts",
+          "type": "line",
+          "data": []
+        }
+      ]
+    },
+    {
+      "id": "Image",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "image-risk",
+          "title": "Image Risk Assessment",
+          "type": "registry",
+          "totalLabel": "Total Vulnerabilities",
+          "totalValue": 8240,
+          "states": [
+            { "name": "Critical", "value": 120, "color": "#4b1d06" },
+            { "name": "High", "value": 240, "color": "#ef4444" },
+            { "name": "Medium", "value": 400, "color": "#f97316" },
+            { "name": "Low", "value": 680, "color": "#facc15" },
+            { "name": "Negligible", "value": 200, "color": "#9ca3af" }
+          ]
+        },
+        {
+          "id": "image-security",
+          "title": "Image Security Issues",
+          "type": "registry",
+          "totalLabel": "Total Images",
+          "totalValue": 128,
+          "states": [
+            { "name": "Critical", "value": 5, "color": "#4b1d06" },
+            { "name": "High", "value": 15, "color": "#ef4444" },
+            { "name": "Medium", "value": 30, "color": "#f97316" },
+            { "name": "Low", "value": 50, "color": "#facc15" },
+            { "name": "Negligible", "value": 28, "color": "#9ca3af" }
+          ]
+        }
+      ]
+    }
+  ]
+}
